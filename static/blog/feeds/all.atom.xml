@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CD期末考週 網頁 (虎尾科大MDE)</title><link href="http://pythonguess-40323120.rhcloud.com/static/" rel="alternate"></link><link href="http://pythonguess-40323120.rhcloud.com/static/feeds/all.atom.xml" rel="self"></link><id>http://pythonguess-40323120.rhcloud.com/static/</id><updated>2016-06-23T22:36:23+08:00</updated><entry><title>40323120 cdw11 期末報告</title><link href="http://pythonguess-40323120.rhcloud.com/static/40323120-cdw11-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-23T22:36:23+08:00</updated><author><name>40323120</name></author><id>tag:pythonguess-40323120.rhcloud.com,2016-06-23:static/40323120-cdw11-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;期末報告&lt;/p&gt;
+
+
+&lt;p&gt;報告內容:&lt;/p&gt;
+&lt;p&gt;前言:
+利用2D繪圖程式繪製出4個A、BACD及ABCD&lt;/p&gt;
+&lt;p&gt;任務描述及執行說明:&lt;/p&gt;
+&lt;p&gt;任務一(繪製出四個A):
+&lt;img src="http://i.imgur.com/D5uY4jn.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;首先在下圖圈起來地方的位置註冊藍圖及導入&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/2yfbmz5.png" width="100%" /&gt;
+&lt;img src="http://i.imgur.com/qnYr5OR.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;再來將2D繪圖程式打開，在要繪圖的資料夾底下輸入python wsgi.py執行&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/PA8yAqB.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;若是開啟成功，會出現上圖的圖示，若是失敗的話則會出現哪裡有錯誤，這個要再去找看看是哪裡出錯。
+在網頁輸入localhost:5000/下圖圈起來的位置1./位置2.&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/Nq14ERX.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;開啟之後會出現在這個位置底下的東西&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/Vx6bs2w.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;再來要說明如何繪製字母A，首先可以自行繪製，也可以從老師給的參數直接拿過來使用，
+接下來要說明的是如何從老師給的參數直接導入繪製出字母A、B、C及D
+可以從班級cdw2中取得這些參數，再將這些參數導入，而位置cdw2中的users底下的s2a中的g100裏頭的scrum1_task1.py然後用編輯器打開來&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/KBb1Hsl.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;複製a函式的參數，然後貼到自己位置的底下，記得要加上html的語法才可以跑出圖形，不然會只有文字檔而已&lt;/p&gt;
+&lt;p&gt;html語法&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/Al7dH5J.png" width="100%" /&gt;
+&lt;img src="http://i.imgur.com/c3sTova.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;導入成功之後&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/Dbpjofv.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;接著再重複導入A函式，更改一下座標軸，紅色底線部分為座標軸的參數&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/IbbLkQl.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;導入四次A函式之後，及用座標軸調整之間的距離&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/Vx6bs2w.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;完成!&lt;/p&gt;
+&lt;p&gt;任務二(依序排列BACD):
+&lt;img src="http://i.imgur.com/2WVFIXd.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;根據上面導入A函式的方法，只是換成導入B、C及D函式而已&lt;/p&gt;
+&lt;p&gt;只是需要注意到的地方是導入的B函式的參數要更動一下&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/mYeY870.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;更動位置如下圖
+原本函式在圈起來的地方為0+65，要改成0&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/iTntgp2.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;改成0之後，所顯示的字母B的起始位置會在原點&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/1AH1Rwk.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;之後再依序導入A、C、D函式，再調整一下座標位置&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/2WVFIXd.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;完成!&lt;/p&gt;
+&lt;p&gt;任務三(由上到下排序ABCD):&lt;/p&gt;
+&lt;p&gt;依照上面所講的方法，再導入A、B、C及D函式，調整位置就可以完成了&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/lLNrLI8.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;結果說明:&lt;/p&gt;
+&lt;p&gt;如何繪製出字母A是靠a函式裏頭的很多X、Y軸的參數，經過數學的運算，才會顯示出字母A的形狀，可是我們直接用導入的可能會無法理解裏頭的X、Y的參數更改的話，到底是影響到甚麼地方，這個是我們可以去思考的地方。&lt;/p&gt;
+&lt;p&gt;其實除了用到座標軸參數去排列以外，也可以去更改它的鍊條顏色，只要在下圖的地方改成你要的顏色就可以了。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/3mrClGf.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/NTWQx3t.png" width="100%" /&gt;&lt;/p&gt;
+&lt;p&gt;:&lt;/p&gt;
+&lt;p&gt;基本上了解之後，至少知道修改哪邊的參數，會變成甚麼結果，還有出問題的時候大概要去從哪邊著手修改，但有些地方可能比較麻煩，還是需要23號同學的幫忙。&lt;/p&gt;
+&lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-2014w11.rhcloud.com/static/"&gt;http://cdw11-2014w11.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;分組程式: &lt;a href="http://cdw11-ag100.rhcloud.com/option"&gt;http://cdw11-ag100.rhcloud.com/option&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;fileuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/fileuploadform"&gt;http://cdw11-ag100.rhcloud.com/fileuploadform&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;imageuploadform: &lt;a href="http://cdw11-ag100.rhcloud.com/imageuploadform"&gt;http://cdw11-ag100.rhcloud.com/imageuploadform&lt;/a&gt;&lt;/p&gt;</summary><category term="40323120"></category><category term="cdw11"></category></entry><entry><title>協同產品設計實習期末考週專案報告</title><link href="http://pythonguess-40323120.rhcloud.com/static/xie-tong-chan-pin-she-ji-shi-xi-qi-mo-kao-zhou-zhuan-an-bao-gao.html" rel="alternate"></link><updated>2016-06-23T21:57:52+08:00</updated><author><name>40323199</name></author><id>tag:pythonguess-40323120.rhcloud.com,2016-06-23:static/xie-tong-chan-pin-she-ji-shi-xi-qi-mo-kao-zhou-zhuan-an-bao-gao.html</id><summary type="html">&lt;p&gt;為了能夠更客觀進行各組與各學員的期末自評, 特別以組為單位, 各組員為內容建構成員, 利用四堂課程的時間, 在各組新建的 Github 倉儲中完成此一專案報告.&lt;/p&gt;
+
+
+&lt;p&gt;基本專案建置流程:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;請各組推派代表, 在其 Github 帳號下, 建立一個分組期末專案倉儲, 倉儲名稱定為 2016springcd_aG1, 其中的 aG1 代表 a 班的第 1 組 (以下將以 2016springcd_xGx 代表各組建立的倉儲名稱),  請各組自行配合改為各自的組別代號, 而且請各組特別注意, 此一倉儲的建立時間, 必須是在各班期末考週的第1堂課程時間之後建立, 才納入計分.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;倉儲建立之後的第1階段提交推送資料, 必須是修改 README.md, 而且必須透過協調, 由各組員依序 git clone 各組在代表組員帳號下所建立的 2016springcd_xGx 倉儲後, 分別由各組員自行用學號登錄的 github 帳號以協同提交推送的過程, 各自修改 README.md 檔案, 將自己的學號與個人對應的 Github Page 網頁, 放入 REAEME.md 檔案中.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第2項的評分依據為各組員必須自行用自己在 Github 登錄的帳號, 取得各組的 2016springcd_xGx 倉儲協同權限後, 再進行 RADEME.md 的協同修改, 之後各組員完成提交推送的紀錄, 必須可以在 commits 呈現各自的學號與提交推送內容及時間, 才納入計分.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;各組以協同流程完成 README.md 的編修後, 接著請取用 &lt;a href="https://github.com/2015fallhw/2016springcd_final"&gt;https://github.com/2015fallhw/2016springcd_final&lt;/a&gt; 倉儲中的架構, 在各組的代表成員的 2016springcd_xGx 倉儲中運作, 並設法將其中的 pelican 網誌內容, 呈現在 2016springcd_xGx 倉儲的 gh-pages 分支中, 完成後, 請各組員在此一 gh-pages 倉儲中各自建立一個能夠呈現自我期末報告的網誌, 並且將此一在 2016springcd_xGx 倉儲的 gh-pages 分支中的連結, 放入 2016springcd_xGx 倉儲 master 分支的 README.md 最前方.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;接著, 請利用協同產品設計實習課程所學到的 2D 網際繪圖內容, 以分組組員各自繪製一簡單幾何零件圖形的方式, 將 2016springcd_xGx 倉儲資料中的 wsgi 程式, 送到各組代表成員的 OpenShift 網站中呈現, 並將 2D 繪圖程式連結, 放到 2016springcd_xGx 倉儲 master 分支的 README.md 資料中, 並且放在分組 gh-pages 連結之後.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;最後, 請各組以協同方式在 Onshape 雲端電腦輔助設計軟體中, 建立一個名稱為 2016springcd_xGx 的公開協同 Document, 然後將各組組員納入作為可以 edit 與 view 的協同者, 以每一位組員利用 Onshape 官方所釋出的 SG (正齒輪) FeatureScript, 分別依照學號排序, 從齒數 17 開始, 以每位學員遞增 2 齒的方式, 各自在 Part Studio 建立一個正齒輪零件, 並以學號命名零件後, 完成後, 以最簡單的方式在以組別 xGx 命名的組立件中完成囓合組立 (例如, 該組有 6 位成員, 則各自提供一個正齒輪零件, 齒數分別為 17, 19, 21, 23, 25, 27 等, 最後則完成6個齒輪的囓合組立), 完成後, 請將各組的囓合正齒輪組立件以 share 功能, 設定成網路公開組立件, 並將此一 Onshape 的組立件連結, 放到 2016springcd_xGx 倉儲 master 分支的 README.md 資料中, 放在分組 wsgi 2D 繪圖連結之後.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;最最後, 請各組依序完成上述工作任務後, 將各組與各學員所完成的網站連結放入 &lt;a href="https://github.com/2015fallhw/cdw11/wiki"&gt;https://github.com/2015fallhw/cdw11/wiki&lt;/a&gt; 各組員的對應資料區中, 以作為期末成績評分參考.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;祝大家 2016 Summer 假期愉快!&lt;/p&gt;</summary><category term="40323199"></category><category term="cdw18"></category></entry></feed>
